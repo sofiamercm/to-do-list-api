@@ -1,0 +1,29 @@
+# Terraform: local state, plans and cached providers
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+
+# SSH keys and credentials
+*.pem
+*.key
+.env
+.env.*
+.aws/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# macOS and editors
+.DS_Store
+.vscode/
